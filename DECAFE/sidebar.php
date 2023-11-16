@@ -21,12 +21,16 @@
                              link-light' : 'link-dark' ; ?>" href="menu"><i class="bi bi-cart3"></i> Daftar Menu</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link  ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='katmenu') ? 'active 
+                             link-light' : 'link-dark' ; ?>" href="katmenu"><i class="bi bi-bookmarks"></i> Kategori Menu</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link  ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='order') ? 'active 
                              link-light' : 'link-dark' ; ?>" href="order"><i class="bi bi-cart3"></i> Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='customer') ? 'active 
-                           link-light' : 'link-dark' ; ?>" href="customer"><i class="bi bi-people-fill"></i> Customer</a>
+                            <a class="nav-link  ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='dapur') ? 'active 
+                           link-light' : 'link-dark' ; ?>" href="dapur"><i class="bi bi-fire"></i> Dapur</a>
                         </li>
                 
                         <?php if ($hasil['level']==1) {?>

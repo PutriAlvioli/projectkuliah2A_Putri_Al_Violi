@@ -40,7 +40,7 @@ if (empty($_SESSION['username_decafe'])) {
 
     </div>
 
-        <div class="fixed-bottom text-center mb-2">
+        <div class="fixed-bottom text-center mb-2 bg-light py-2">
         Copyright 2022 Markaz virtual
         </div>
     </div>

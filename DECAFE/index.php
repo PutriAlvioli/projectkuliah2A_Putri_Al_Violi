@@ -15,8 +15,8 @@
           include "main.php";
         }
 
-      }elseif(isset ($_GET['x']) && $_GET['x']=='customer'){
-        $page = "customer.php";
+      }elseif(isset ($_GET['x']) && $_GET['x']=='dapur'){
+        $page = "dapur.php";
         include "main.php";
       }elseif(isset ($_GET['x']) && $_GET['x']=='report'){
         if ($_SESSION['level_decafe']==1) {
@@ -35,6 +35,12 @@
         include "login.php";
       }elseif(isset ($_GET['x']) && $_GET['x']=='logout'){
         include "proses/proses_logout.php";
+      }elseif(isset ($_GET['x']) && $_GET['x']=='katmenu'){
+        $page = "katmenu.php";
+        include "main.php";
+      }elseif(isset ($_GET['x']) && $_GET['x']=='orderitem'){
+        $page = "order_item.php";
+        include "main.php";
       }else {
         $page = "home.php";
         include "main.php";
